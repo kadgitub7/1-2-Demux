@@ -77,10 +77,10 @@ Using inputs **E**, **S₀**, and **I**, and outputs **Y₀**, **Y₁**, the com
 From this table, we can derive the Boolean equations for the outputs:
 
 \[
-Y_0 = E \cdot I \cdot \overline{S_0}
+$$Y_0 = E \cdot I \cdot \overline{S_0}$$
 \]
 \[
-Y_1 = E \cdot I \cdot S_0
+$$Y_1 = E \cdot I \cdot S_0$$
 \]
 
 In more programming-style notation:
@@ -128,8 +128,9 @@ Y1 = E · I · S0
 ```
 
 In the Verilog implementation, these relationships are encoded directly using combinational logic assignments.
-![1:2 Demultiplexer Waveform](imageAssets/demuxCircuit.png)
+
 ---
+![1:2 Demultiplexer Waveform](imageAssets/demuxCircuit.png)
 
 ## Waveform Diagram
 
