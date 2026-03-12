@@ -128,7 +128,7 @@ Y1 = E · I · S0
 ```
 
 In the Verilog implementation, these relationships are encoded directly using combinational logic assignments.
-
+![1:2 Demultiplexer Waveform](imageAssets/demuxCircuit.png)
 ---
 
 ## Waveform Diagram
@@ -145,15 +145,6 @@ Inputs :
   E, S0, I
 Outputs:
   Y0, Y1
-```
-
-When **E = 0**, both `Y0` and `Y1` remain **0** in the waveform.  
-When **E = 1**, the waveform clearly shows the input `I` being routed to **either `Y0` or `Y1`** depending on the value of `S0`.
-
-If you have exported a waveform image from Vivado, you can place it in an `imageAssets/` folder and reference it here, for example:
-
-```text
-![1:2 Demultiplexer Waveform](imageAssets/oneTwoDemuxWaveform.png)
 ```
 
 ---
